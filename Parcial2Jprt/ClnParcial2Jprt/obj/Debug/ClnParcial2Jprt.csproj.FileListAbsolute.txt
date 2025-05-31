@@ -1,0 +1,15 @@
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\bin\Debug\ClnParcial2Jprt.dll.config
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\bin\Debug\ClnParcial2Jprt.dll
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\bin\Debug\ClnParcial2Jprt.pdb
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\bin\Debug\CadParcial2Jprt.dll
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\bin\Debug\EntityFramework.dll
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\bin\Debug\CadParcial2Jprt.pdb
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\bin\Debug\CadParcial2Jprt.dll.config
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\bin\Debug\EntityFramework.xml
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\obj\Debug\ClnParcial2Jprt.csproj.AssemblyReference.cache
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\obj\Debug\ClnParcial2Jprt.csproj.CoreCompileInputs.cache
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\obj\Debug\ClnParci.DC129AE4.Up2Date
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\obj\Debug\ClnParcial2Jprt.dll
+C:\Users\filof\Desktop\Parcial2Jprt\Parcial2Jprt\ClnParcial2Jprt\obj\Debug\ClnParcial2Jprt.pdb
