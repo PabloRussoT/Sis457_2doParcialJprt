@@ -11,6 +11,8 @@
           <ScalarProperty Name="episodios" ColumnName="episodios" />
           <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
           <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="urlTrailer" ColumnName="urlTrailer" />
+          <ScalarProperty Name="idiomaOriginal" ColumnName="idiomaOriginal" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -24,6 +26,8 @@
           <ScalarProperty Name="episodios" ColumnName="episodios" />
           <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
           <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="urlTrailer" ColumnName="urlTrailer" />
+          <ScalarProperty Name="idiomaOriginal" ColumnName="idiomaOriginal" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>

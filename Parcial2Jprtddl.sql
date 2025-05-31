@@ -35,14 +35,43 @@ AS
    WHERE estado<>-1 AND titulo+director LIKE '%'+REPLACE(@parametro,' ','%')+'%'
   ORDER BY titulo ASC;
 
--- Nuevos valores para INSERT INTO
-INSERT INTO Serie(titulo, sinopsis,director,episodios,fechaEstreno,estado)
-VALUES ('The Crown', 'La serie sigue la vida de la Reina Isabel II desde la década de 1940 hasta el presente, explorando los eventos políticos y personales que han marcado su reinado y el impacto en la familia real británica.','Peter Morgan',60,'2016-11-04',1)
 
-INSERT INTO Serie(titulo, sinopsis,director,episodios,fechaEstreno,estado)
-VALUES ('Stranger Things','En la década de 1980 en Hawkins, Indiana, un grupo de amigos descubre una serie de eventos sobrenaturales y experimentos gubernamentales secretos después de que su amigo Will desaparece misteriosamente.','Duffer Brothers',34,'2016-07-15',1)
+EXEC paSerieListar 'Dark'; -- Ejemplo de ejecución con un nuevo parámetro
 
-INSERT INTO Serie(titulo, sinopsis,director,episodios,fechaEstreno,estado)
-VALUES ('Arcane','Ambientada en el universo de League of Legends, esta serie animada explora los orígenes de dos campeonas icónicas, Jinx y Vi, y la creciente tensión entre la rica y utópica ciudad de Piltover y la oprimida y subterránea Zaun.','Pascal Charrue',9,'2021-11-06',0)
 
-EXEC paSerieListar 'Crown'; -- Ejemplo de ejecución con un nuevo parámetro
+ALTER TABLE Serie
+ADD urlTrailer VARCHAR(500);
+
+
+ALTER TABLE Serie
+ADD idiomaOriginal VARCHAR(50);
+
+
+select * from Serie;
+
+INSERT INTO Serie(titulo, sinopsis, director, episodios, fechaEstreno, estado, urlTrailer, idiomaOriginal)
+VALUES (
+    'Severance',
+    'Mark Scout lidera un equipo en Lumon Industries, donde los empleados se someten a un procedimiento quirúrgico que separa sus recuerdos entre su vida laboral y personal. Esta arriesgada experiencia pone a prueba la verdadera naturaleza de su trabajo.',
+    'Ben Stiller',
+    9,
+    '2022-02-18',
+    1,
+    'https://www.youtube.com', 
+    'Inglés'
+);
+
+INSERT INTO Serie(titulo, sinopsis, director, episodios, fechaEstreno, estado, urlTrailer, idiomaOriginal)
+VALUES (
+    'Dark',
+    'Cuando dos niños desaparecen en un pequeño pueblo alemán, sus enigmáticas relaciones salen a la luz entre cuatro familias mientras desvelan una conspiración de viaje en el tiempo que abarca varias generaciones.',
+    'Baran bo Odar',
+    26,
+    '2017-12-01',
+    1,
+    'https://www.youtube.com',
+    'Alemán'
+);
+
+
+EXEC paSerieListar 'Dark'; -- Ejemplo de ejecución con un nuevo parámetro

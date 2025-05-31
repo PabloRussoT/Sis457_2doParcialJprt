@@ -11,6 +11,8 @@
     <Property Name="episodios" Type="Int32" Nullable="false" />
     <Property Name="fechaEstreno" Type="DateTime" Nullable="false" Precision="0" />
     <Property Name="estado" Type="Int16" Nullable="false" />
+    <Property Name="urlTrailer" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="idiomaOriginal" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityContainer Name="Parcial2JprtEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Serie" EntityType="Self.Serie" />
@@ -26,5 +28,7 @@
     <Property Type="Int32" Name="episodios" Nullable="false" />
     <Property Type="DateTime" Name="fechaEstreno" Nullable="false" />
     <Property Type="Int16" Name="estado" Nullable="false" />
+    <Property Type="String" Name="urlTrailer" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="idiomaOriginal" Nullable="true" MaxLength="50" />
   </ComplexType>
 </Schema>

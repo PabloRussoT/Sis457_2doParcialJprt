@@ -11,6 +11,8 @@
     <Property Name="episodios" Type="int" Nullable="false" />
     <Property Name="fechaEstreno" Type="date" Nullable="false" />
     <Property Name="estado" Type="smallint" Nullable="false" />
+    <Property Name="urlTrailer" Type="varchar" MaxLength="500" />
+    <Property Name="idiomaOriginal" Type="varchar" MaxLength="50" />
   </EntityType>
   <Function Name="paSerieListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="parametro" Type="varchar" Mode="In" />

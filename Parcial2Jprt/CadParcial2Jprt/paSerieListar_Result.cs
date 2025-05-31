@@ -20,5 +20,7 @@ namespace CadParcial2Jprt
         public int episodios { get; set; }
         public System.DateTime fechaEstreno { get; set; }
         public short estado { get; set; }
+        public string urlTrailer { get; set; }
+        public string idiomaOriginal { get; set; }
     }
 }

@@ -31,6 +31,8 @@ namespace ClnParcial2Jprt
                 existente.fechaEstreno = serie.fechaEstreno;
                 existente.titulo = serie.titulo;
                 existente.estado = serie.estado;
+                existente.urlTrailer = serie.urlTrailer;
+                existente.idiomaOriginal = serie.idiomaOriginal;
                 return context.SaveChanges();
             }
         }
